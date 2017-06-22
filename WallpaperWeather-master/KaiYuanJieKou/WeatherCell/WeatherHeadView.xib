@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WeatherHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="289"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="无数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQ9-zq-5Hn">
+                    <rect key="frame" x="139" y="66.5" width="97" height="38.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="无数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYd-gM-8ye">
+                    <rect key="frame" x="162.5" y="135" width="49" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="℃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feE-N9-nP1">
+                    <rect key="frame" x="220" y="184.5" width="36" height="38.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="无数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qR8-Xz-VDP">
+                    <rect key="frame" x="152" y="247.5" width="73" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fine" translatesAutoresizingMaskIntoConstraints="NO" id="Xng-R9-bNB">
+                    <rect key="frame" x="117.5" y="184" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="IrU-cF-To2"/>
+                        <constraint firstAttribute="height" constant="40" id="W66-iX-Pa9"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="feE-N9-nP1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="50" id="UxE-zM-Vyl"/>
+                <constraint firstItem="qR8-Xz-VDP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ZS6-kH-Asw"/>
+                <constraint firstItem="feE-N9-nP1" firstAttribute="top" secondItem="EYd-gM-8ye" secondAttribute="bottom" constant="30" id="aPx-HE-cVh"/>
+                <constraint firstItem="EYd-gM-8ye" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bb7-UW-hGe"/>
+                <constraint firstItem="EYd-gM-8ye" firstAttribute="top" secondItem="bQ9-zq-5Hn" secondAttribute="bottom" constant="30" id="ivk-ao-QWM"/>
+                <constraint firstItem="EYd-gM-8ye" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jbo-F2-eBv"/>
+                <constraint firstItem="bQ9-zq-5Hn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oUr-z3-enE"/>
+                <constraint firstItem="Xng-R9-bNB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-50" id="oWk-tX-kNl"/>
+                <constraint firstItem="Xng-R9-bNB" firstAttribute="centerY" secondItem="feE-N9-nP1" secondAttribute="centerY" id="uCR-xV-pmL"/>
+                <constraint firstAttribute="bottom" secondItem="qR8-Xz-VDP" secondAttribute="bottom" constant="13" id="vPH-qd-bqU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cityLabel" destination="bQ9-zq-5Hn" id="sXQ-04-3V9"/>
+                <outlet property="dateLabel" destination="qR8-Xz-VDP" id="c7m-Td-8YR"/>
+                <outlet property="quiltyLabel" destination="EYd-gM-8ye" id="SKX-0S-npa"/>
+                <outlet property="tempLabel" destination="feE-N9-nP1" id="AVC-KC-sML"/>
+                <outlet property="weatherImg" destination="Xng-R9-bNB" id="shv-as-29G"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-311.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Fine" width="80" height="80"/>
+    </resources>
+</document>

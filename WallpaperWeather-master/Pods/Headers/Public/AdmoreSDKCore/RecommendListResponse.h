@@ -1,0 +1,1 @@
+../../../AdmoreSDKCore/OpenPlatform/Classes/OpenPlatform/RecommendListResponse.h

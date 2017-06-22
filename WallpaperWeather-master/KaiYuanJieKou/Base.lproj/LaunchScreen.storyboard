@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FZMWFont.ttf">
+            <string>FZMWJW--GB1-0</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BG7" translatesAutoresizingMaskIntoConstraints="NO" id="ZdY-we-QRy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="多点壁纸天气" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ewa-qw-iUG">
+                                <rect key="frame" x="68" y="310.5" width="240" height="46"/>
+                                <fontDescription key="fontDescription" name="FZMWJW--GB1-0" family="FZMiaoWuS-GB" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By HeroDYS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTx-Z2-jNP">
+                                <rect key="frame" x="141.5" y="376.5" width="93.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZdY-we-QRy" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="27O-WW-N1z"/>
+                            <constraint firstAttribute="trailing" secondItem="ZdY-we-QRy" secondAttribute="trailing" id="9cW-E1-mci"/>
+                            <constraint firstItem="qTx-Z2-jNP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="0.5" id="JNf-pT-zhL"/>
+                            <constraint firstItem="qTx-Z2-jNP" firstAttribute="top" secondItem="Ewa-qw-iUG" secondAttribute="bottom" constant="20" id="OeS-gl-cBo"/>
+                            <constraint firstItem="ZdY-we-QRy" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Qzn-7A-riI"/>
+                            <constraint firstItem="qTx-Z2-jNP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="1" id="Vpm-kf-BSf"/>
+                            <constraint firstItem="Ewa-qw-iUG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YGr-qO-BGQ"/>
+                            <constraint firstItem="Ewa-qw-iUG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="0.5" id="ZyZ-no-eh1"/>
+                            <constraint firstItem="qTx-Z2-jNP" firstAttribute="top" secondItem="Ewa-qw-iUG" secondAttribute="bottom" constant="20" id="hXu-Au-gzz"/>
+                            <constraint firstItem="qTx-Z2-jNP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="1" id="iAt-vE-YIr"/>
+                            <constraint firstAttribute="bottom" secondItem="ZdY-we-QRy" secondAttribute="bottom" id="nPw-Xg-O9k"/>
+                            <constraint firstItem="qTx-Z2-jNP" firstAttribute="centerX" secondItem="Ewa-qw-iUG" secondAttribute="centerX" id="pZH-Rd-a4L"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Vpm-kf-BSf"/>
+                                <exclude reference="hXu-Au-gzz"/>
+                                <exclude reference="iAt-vE-YIr"/>
+                                <exclude reference="pZH-Rd-a4L"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BG7" width="540" height="960"/>
+    </resources>
+</document>

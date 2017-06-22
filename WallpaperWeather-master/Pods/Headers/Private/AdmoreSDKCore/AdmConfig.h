@@ -1,0 +1,1 @@
+../../../AdmoreSDKCore/OpenPlatform/Classes/AdmoreSDKCore/AdmConfig.h

@@ -1,0 +1,62 @@
+PODS:
+  - AdmoreSDKCore/OpenPlatform (1.7):
+    - AFNetworking (~> 3.0)
+    - JsonImpl
+    - SafariCookieBridge
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - JsonImpl (1.0.4)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - pop (1.0.9)
+  - SafariCookieBridge (1.0.3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - WechatOpenSDK (1.7.7)
+
+DEPENDENCIES:
+  - AdmoreSDKCore/OpenPlatform (from `https://github.com/duodiankeji/admore_sdk_release`)
+  - Masonry
+  - MJExtension
+  - pop
+  - SafariCookieBridge
+  - SDWebImage
+  - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  AdmoreSDKCore:
+    :git: https://github.com/duodiankeji/admore_sdk_release
+
+CHECKOUT OPTIONS:
+  AdmoreSDKCore:
+    :commit: 9e47c9d40a978b2981005ae0a811d67e2705480b
+    :git: https://github.com/duodiankeji/admore_sdk_release
+
+SPEC CHECKSUMS:
+  AdmoreSDKCore: 288b0717914a26afd1a756fdaebe6d88c7f41138
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  JsonImpl: 9217b15ffd1b21b72ad3c18ace2245990cb79ec9
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SafariCookieBridge: 4e5ff7ceea9f0408810b0002f0c40445cd1c1553
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
+
+PODFILE CHECKSUM: 58334b818149797263351433e8eeb8a788b283e1
+
+COCOAPODS: 1.2.1

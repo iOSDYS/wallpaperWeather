@@ -1,0 +1,9 @@
+target 'KaiYuanJieKou' do
+pod 'MJExtension'
+pod 'AdmoreSDKCore/OpenPlatform', :git => 'https://github.com/duodiankeji/admore_sdk_release'
+pod 'pop'
+pod 'Masonry'
+pod 'WechatOpenSDK'
+pod 'SDWebImage'
+pod 'SafariCookieBridge'
+end
